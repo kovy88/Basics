@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navigation */
+nav {
+    
+    background-color: rgba(0,0,0,0.8);
+}
+nav ul{
+    width: 1020px;
+    margin: 0 auto;
+}
+nav ul li {
+    width: 145px;
+    list-style: none;
+    float: left;
+    /* border: 2px solid red; */
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* vertical-align: middle; */
+    
+    
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    /* color: aliceblue; */
+    /* text-decoration: underline; */
+    border-bottom: 2px solid rgb(84, 84, 84) ;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#iphone{
+    background-color: rgb(21, 21, 21);
+}
+
+#iphone img{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+main h2 {
+    position: relative;
+    top: 120px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.XS {
+   font-size: 50px; 
+}
+
+.section1 img{
+    display: block;
+    margin: 50px auto 0 auto;
+    width: 40%;
+    position: relative;
+    top: 30px;
+    /* transform: rotate(10deg); */
+}
+
+.section1 h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    position: relative;
+    top: -50px;
+}
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    padding-left: 5px;
+    color: darkgray;
+    text-align: center;
+}
+footer p {
+    position: relative;
+    top: 200px;
+}

@@ -1,0 +1,153 @@
+@media screen and (max-width: 1170px){
+    .photos {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+
+
+    .col.span-1-of-3.cus_text{
+        width: 48%;
+        margin-left: 10px;
+    }
+
+    .cus_text:nth-child(3){
+        display: none;
+    }
+
+
+
+
+    .our_off{
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+    .location{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
+}
+@media screen and (max-width: 950px){
+
+    .center-header{
+        width: 100%;
+        transform: translate(0%, 0%);
+        left: 0%;
+        text-align: center;
+    }
+    
+    .center-header h1{
+        text-align: center;
+    }
+
+
+    nav ul{
+        display: none;
+        z-index: 150;
+    }
+
+    nav ul li{
+        display: block;
+        padding-bottom: 13px;
+    }
+
+    nav ul li a:hover,
+    nav ul li a:active {
+    border-bottom: 3px solid transparent;
+}
+
+
+    .mobile_nav_back{
+        height: 200px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.85);
+        border-bottom: 1px solid white;
+        display: none;
+        z-index: 100;
+    }
+
+    nav .mobile_nav_icon{
+        display: inline-block;
+        z-index: 200;
+        position: fixed;
+        right: 2%;
+    }
+
+
+}
+@media screen and (max-width: 750px){
+    
+    .photos li {
+        width: 100%;
+    }
+
+    .photos .col {
+        margin-left: 0;
+    }
+
+
+    .our_off .col{
+        width: 90%;
+    }
+
+    .our_off img{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .our_off p{
+        padding-top: 9px;
+    }
+
+
+    .location .col {
+        width: 98%;
+        margin-left: 0;
+        /* max-height: 300px; */
+    }
+
+    .location{
+        margin-right: 0;
+    }
+
+}
+
+
+
+@media screen and (max-width: 550px){
+    .col.span-1-of-3.cus_text{
+        width: 100%;
+        margin-right: 10px;
+    }
+    
+    .cus_text:nth-child(3){
+        display: block;
+    }
+
+    .photo_name {
+        float: right;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    
+    .second{
+        margin-left: 0;
+    }
+
+    .btn{
+        display: block;
+        margin: 0 15px 5px;        
+    }
+
+}

@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    /* color: lime;a */
+    /* background-color: gray; */
+    font-size: 40px;
+    text-align: center;
+    border: 5px solid grey;
+    padding: 10px 20px 30px 70px;
+    margin: 50px auto;
+    width: 300px;
+}
+strong {
+    border: 5px solid grey;
+}
+.abc {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, sans-serif;
+    text-align: justify;
+    text-shadow: 2px 2px 2px red;
+    /* box-shadow: 50px 50px 100px red; */
+    margin-top: 0px;
+}
+
+.xxx{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aliceblue; */
+    /* color: black; */
+    text-shadow: 2px 2px 2px white;
+}
+
+body {
+    background-color: rgb(70, 70, 70);
+    color: azure;
+}
+
+img {
+    width: 300px;
+    border-radius: 60px;
+    box-shadow: 50px 50px 100px red;
+
+}
+
+.kontakt {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+}
+.Google {
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    border: 2px solid red;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Heeeej {
+    text-decoration: line-through;
+    color: white;
+    background-color: gray;
+}
+
+.container {
+    width: 500px;
+    margin: auto auto;
+    background-color: rgba(42, 42, 42, 0.459);
+    text-align: center;
+}

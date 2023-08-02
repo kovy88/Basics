@@ -1,0 +1,14 @@
+html
+<div class="clearfix"></div>
+
+
+css
+/***  Stop floating  ****/
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
