@@ -1,0 +1,49 @@
+h1{
+    color: rgb(32, 32, 32);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 18px;
+    border-bottom: 4px solid rgb(33, 33, 33);
+    max-width: 150px;
+
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid rgb(33, 33, 33);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    color: rgb(237, 237, 237);
+    background-color: rgb(70, 70, 70);
+    font-family: Arial, Helvetica, sans-serif;
+    /* letter-spacing: 0.7px; */
+    display: block;
+    max-width: 140px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+}
+
+#search{
+    margin-left: 20px;
+    max-width: 150px;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+p{
+    margin: 15px 25px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

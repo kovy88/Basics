@@ -564,43 +564,43 @@
 
 
 
-let names = ["Anna", "Crambora", "Becile"]
+// let names = ["Anna", "Crambora", "Becile"]
 
-names.sort()
+// names.sort()
 
-console.log(names)
+// console.log(names)
 
-let nums = [1, 15, 4, 6, 3, 7, 5]
+// let nums = [1, 15, 4, 6, 3, 7, 5]
 
-nums.sort()
+// nums.sort()
 
-console.log(nums)
+// console.log(nums)
 
 
-let books = [{
-    title: "Harry Potter a kámen mudrců",
-    author: "J. K. Rowlingová",
-    published: 1997
-}, {
-    title: "Harry Potter a vězeň z Azkabanu",
-    author: "J. K. Rowlingová",
-    published: 1999
-}, {
-    title: "Harry Potter a Tajemná komnata",
-    author: "J. K. Rowlingová",
-    published: 1998
-}]
+// let books = [{
+//     title: "Harry Potter a kámen mudrců",
+//     author: "J. K. Rowlingová",
+//     published: 1997
+// }, {
+//     title: "Harry Potter a vězeň z Azkabanu",
+//     author: "J. K. Rowlingová",
+//     published: 1999
+// }, {
+//     title: "Harry Potter a Tajemná komnata",
+//     author: "J. K. Rowlingová",
+//     published: 1998
+// }]
 
-function sortArr(arrBooks) {
-    arrBooks.sort(function(a, b) {
-        if(a.title.toLowerCase() < b.title.toLowerCase()){
-            return -1
-        }else if(a.title.toLowerCase() > b.title.toLowerCase()){
-            return 1
-        }else return 0
+// function sortArr(arrBooks) {
+//     arrBooks.sort(function(a, b) {
+//         if(a.title.toLowerCase() < b.title.toLowerCase()){
+//             return -1
+//         }else if(a.title.toLowerCase() > b.title.toLowerCase()){
+//             return 1
+//         }else return 0
         
-    })
-}
+//     })
+// }
 
-sortArr(books)
-console.log(books)
+// sortArr(books)
+// console.log(books)
